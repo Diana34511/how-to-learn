@@ -34,7 +34,7 @@ height: 32px;
   top: 30px;
   left: 64px;
 }
-.title {
+.title_main {
   display: block;
   margin: 0 0 0 64px;
   z-index: 2;
@@ -124,6 +124,10 @@ height: 32px;
 
 .main-text__bold {
   font-weight: 600;
+}
+
+.digits {
+  margin: 100px auto;
 }
 
 /* и элемента с модификатором вида ключ-значение */
