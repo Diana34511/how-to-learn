@@ -79,10 +79,51 @@ height: 32px;
   z-index: 0;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.description {
+  padding: 100px 0 0 0;
+  background-color: white;
+  display: flex;
+}
+
+.description__two-columns {
+  align-items: center;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.two-columns_brief {
+  color: #2f80ed;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  align-self: flex-start;
+}
+
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  width: 80%;
+  min-width: 784px;
+  padding: 0;
+  margin: 0 0 30 0;
+}
+.main-text_paragraph {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.main-text_paragraph:last-child{
+  margin: 0;
+}
+
+.main-text__bold {
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
