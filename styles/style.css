@@ -238,7 +238,36 @@ height: 32px;
 
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  margin: 0;
+  overflow: hidden; 
+  position: relative;
+  z-index: 2;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+.kaufman__position {
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top:0;
+  z-index: -2;
+  width: 877px;
+  height: 877px;
+}
+
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
