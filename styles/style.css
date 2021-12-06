@@ -6,9 +6,8 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   padding: 0; /*sbros rasstoyania*/
-  
 }
 
 .header {
@@ -23,8 +22,8 @@
 }
 
 .logo {
-width: 183px;
-height: 32px;
+  width: 183px;
+  height: 32px;
 }
 
 .logo_place_header {
@@ -120,7 +119,7 @@ height: 32px;
   margin: 0 0 30px 0;
 }
 
-.two-columns__paragraph:last-child{
+.two-columns__paragraph:last-child {
   margin: 0;
 }
 
@@ -221,7 +220,6 @@ height: 32px;
   font-weight: normal;
   margin: 70px auto 0;
   padding: 0;
-
 }
 
 .feynman__link {
@@ -236,14 +234,13 @@ height: 32px;
   margin: 0;
   padding: 0;
   text-decoration: none;
-
 }
 
 .kaufman {
   background-color: #1f1f1f;
   padding: 90px 0;
   margin: 0;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
   z-index: 2;
 }
@@ -262,12 +259,11 @@ height: 32px;
 .kaufman__triangle {
   position: absolute;
   right: -210px;
-  top:0;
+  top: 0;
   z-index: -2;
   width: 877px;
   height: 877px;
 }
-
 
 .table__cell_theme_dark {
   width: 200px;
@@ -297,7 +293,6 @@ height: 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .logo_place_footer {
@@ -313,13 +308,11 @@ height: 32px;
 }
 
 .footer__columns_content_social {
-  
   display: flex;
   flex-direction: column;
 }
 
 .footer__columns_content_info {
-
   display: flex;
   flex-direction: column;
 }
@@ -336,7 +329,6 @@ height: 32px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  
 }
 
 .footer__column-link {
