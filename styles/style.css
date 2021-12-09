@@ -52,6 +52,7 @@
   font-size: 18px;
   font-weight: normal;
   text-align: left;
+  margin: 0;
 }
 
 .header__link {
@@ -66,9 +67,11 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+  object-fit: contain;
+  object-position: right bottom;
 }
 
-.header_square-pic {
+.header__square-pic {
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
@@ -112,7 +115,7 @@
   width: 80%;
   min-width: 784px;
   padding: 0;
-  margin: 0 0 30 0;
+  margin: 0;
 }
 .two-columns__paragraph {
   padding: 0;
@@ -155,6 +158,7 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0;
+  list-style-type: none;
 }
 
 .table__heading {
@@ -162,11 +166,11 @@
   font-size: 24px;
   font-weight: 600;
   text-align: left;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
-.table__heading_light {
-  color: black;
+.table__heading_theme_dark {
+  color: white;
 }
 
 .table__text {
@@ -175,18 +179,11 @@
   font-weight: normal;
   text-align: left;
   margin: 0;
-}
-
-.table__text_autors {
-  padding: 0;
-  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .table__cell {
   margin: 60px 0 0 0;
-}
-
-.table__cell_light {
   width: 250px;
 }
 
@@ -198,8 +195,7 @@
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 867px 637px;
-  min-height: 800px;
-  max-height: 820px;
+  height: 890px;
   position: relative;
 }
 
@@ -242,7 +238,7 @@
   margin: 0;
   overflow: hidden;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -251,9 +247,6 @@
 
 .section-subtitle_theme_dark {
   color: white;
-}
-.kaufman__position {
-  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -288,10 +281,13 @@
   width: 90%;
 }
 
-.footer__columns_content_copyright {
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
@@ -307,18 +303,8 @@
   margin: 18px 0;
 }
 
-.footer__columns_content_social {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__columns_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
