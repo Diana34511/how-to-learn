@@ -1,4 +1,4 @@
-.link__animation:hover {
+.link-animation:hover {
   opacity: 0.33;
   transition: 1s ease-in-out;
 }
