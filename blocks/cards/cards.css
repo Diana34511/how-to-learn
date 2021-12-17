@@ -1,0 +1,6 @@
+.cards {
+  max-width: 920px;
+  align-items: flex-start;
+  gap: 0 100px;
+  justify-content: left;
+}

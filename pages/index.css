@@ -48,3 +48,12 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/link/__animation/link__animation.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/rotation/__square-pic/rotation__square-pic.css);
+@import url(../blocks/rotation/__kaufman-triangle/rotation__kaufman-triangle.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
