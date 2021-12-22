@@ -54,65 +54,63 @@
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-          <ul class="table cards">
+          <ul class="cards">
             <li class="cards__item">
               <img
-                src="./images_sprint-2/cards-attention.png"
+                src="./images/cards-attention.png"
                 alt="Книга"
                 class="cards__image"
               />
-              <h4 class="table__heading cards__title">Два вида внимания</h4>
-              <p class="table__text cards__description">
+              <h4 class="cards__title">Два вида внимания</h4>
+              <p class="cards__description">
                 Глубокие знания возникают, если чередовать сфокусированное и
                 рассеянное мышление.
               </p>
             </li>
             <li class="cards__item">
               <img
-                src="./images_sprint-2/cards-recall.png"
+                src="./images/cards-recall.png"
                 alt="скульптура"
                 class="cards__image"
               />
-              <h4 class="table__heading cards__title">Recall</h4>
-              <p class="table__text cards__description">
-                Глубокие знания возникают, если чередовать сфокусированное и
-                рассеянное мышление.
+              <h4 class="cards__title">Recall</h4>
+              <p class="cards__description">
+                Вспоминайте изученное — это позволит соединить разрозненные
+                порции памяти.
               </p>
             </li>
             <li class="cards__item">
               <img
-                src="images_sprint-2/cards-interliving.png"
+                src="images/cards-interliving.png"
                 alt="фото"
                 class="cards__image"
               />
-              <h4 class="table__heading cards__title">Интерливинг</h4>
-              <p class="table__text cards__description">
+              <h4 class="cards__title">Интерливинг</h4>
+              <p class="cards__description">
                 Изучайте несколько навыков одновременно, они обогащают друг
                 друга.
               </p>
             </li>
             <li class="cards__item">
               <img
-                src="./images_sprint-2/cards-question.png"
+                src="./images/cards-question.png"
                 alt="помещение"
                 class="cards__image"
               />
-              <h4 class="table__heading cards__title">Вопросы</h4>
-              <p class="table__text cards__description">
+              <h4 class="cards__title">Вопросы</h4>
+              <p class="cards__description">
                 Слушая преподавателя, придумывайте хороший вопрос, который вас
                 действительно волнует.
               </p>
             </li>
             <li class="cards__item">
               <img
-                src="./images_sprint-2/cards-competence.png"
+                src="./images/cards-competence.png"
                 alt="книги"
                 class="cards__image"
               />
-              <h4 class="table__heading cards__title">
-                Иллюзия компетентности
-              </h4>
-              <p class="table__text cards__description">
+              <h4 class="cards__title">Иллюзия компетентности</h4>
+              <p class="cards__description">
                 Повторите про себя, запишите, расскажите другу: вам только
                 кажется, что вы владеете новой темой.
               </p>
@@ -124,26 +122,20 @@
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <div class="video__iframe">
-              <iframe
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/arj7oStGLkU"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="video__iframe">
-              <iframe
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/5MgBikgcWnY"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </section>
 
@@ -234,7 +226,7 @@
             <h3 class="khan__quote-author">Джордж Лукас</h3>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic"></div>
+              <img src="./images/khan-book.jpg" class="khan__book-pic" />
               <a class="khan__buy-link link-animation" href="#"
                 >Купить книгу &rarr;</a
               >
@@ -299,11 +291,7 @@
               </p>
             </li>
           </ul>
-          <img
-            src="./images/kaufman-triangle.svg"
-            alt="Треугольники"
-            class="kaufman__triangle rotation"
-          />
+          <div class="kaufman__triangle rotation"></div>
         </section>
 
         <section class="resources">
@@ -311,28 +299,40 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <div class="resources__logo-zone">
-            <img
-              class="resources__logo"
-              alt="Арзамас"
-              src="./images_sprint-2/logo/resources-arzamas.svg"
-            />
-            <img
-              class="resources__logo"
-              alt="Н+1"
-              src="./images_sprint-2/logo/resources-n1.svg"
-            />
-            <img
-              class="resources__logo"
-              alt="Стрелка"
-              src="./images_sprint-2/logo/resources-strelka.svg"
-            />
-            <img
-              class="resources__logo"
-              alt="Полка"
-              src="./images_sprint-2/logo/resources-polka.svg"
-            />
-          </div>
+          <ul class="resources__logo-zone">
+            <li>
+              <a href="#" class="link-animation"
+                ><img
+                  class="resources__logo"
+                  alt="Арзамас"
+                  src="./images/logo/resources-arzamas.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link-animation">
+                <img
+                  class="resources__logo"
+                  alt="Н+1"
+                  src="./images/logo/resources-n1.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link-animation">
+                <img
+                  class="resources__logo"
+                  alt="Стрелка"
+                  src="./images/logo/resources-strelka.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link-animation">
+                <img
+                  class="resources__logo"
+                  alt="Полка"
+                  src="./images/logo/resources-polka.svg"
+              /></a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
